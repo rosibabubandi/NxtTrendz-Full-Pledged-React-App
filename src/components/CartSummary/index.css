@@ -1,0 +1,67 @@
+.cart-summary-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-end;
+  padding: 10px;
+}
+.check-out-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.order-total-text {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 45px;
+}
+.amount-text {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 46px;
+}
+.items-quantity-text {
+  color: #616e7c;
+  font-family: 'Roboto';
+}
+.check-out-button {
+  height: 40px;
+  width: 200px;
+  background-color: #0b69ff;
+  border-width: 0px;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .cart-summary-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    width: 100%;
+  }
+  .check-out-button {
+    height: 40px;
+    width: 90vw;
+    background-color: #0b69ff;
+    border-width: 0px;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    color: #ffffff;
+  }
+  .order-total-text {
+    color: #616e7c;
+    font-family: 'Roboto';
+    font-size: 275px;
+  }
+  .amount-text {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 28px;
+  }
+}
